@@ -16,9 +16,6 @@ namespace CryptoUtilsConsole.AsymmetricCrypto
 
     class RsaFileDemo
     {
-        private static RSAParameters publicKey;
-        private static RSAParameters privateKey;
-
         public static void LaunchDemo()
         {
             string message = "The quick brown fox jumps over the lazy dog";

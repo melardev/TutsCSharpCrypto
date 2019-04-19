@@ -6,10 +6,10 @@ namespace CryptoUtilsConsole.hashing
 {
     class Sha512Demos
     {
-        public static byte[] GetSha512Hash(string hashme)
+        public static byte[] GetSha512Hash(string plainText)
         {
             SHA512 sha512 = SHA512.Create();
-            byte[] computedHash = sha512.ComputeHash(Encoding.UTF8.GetBytes(hashme));
+            byte[] computedHash = sha512.ComputeHash(Encoding.UTF8.GetBytes(plainText));
             return computedHash;
         }
 
