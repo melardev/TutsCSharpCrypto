@@ -43,13 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Crypter.cs" />
+    <Compile Include="AsymmetricCrypto\RSACspDemo.cs" />
+    <Compile Include="AsymmetricCrypto\RsaFileDemo.cs" />
+    <Compile Include="AsymmetricCrypto\RsaInMemoryDemo.cs" />
+    <Compile Include="Hashing\HmacMD5Demos.cs" />
+    <Compile Include="Hashing\HmacSHA1Demos.cs" />
+    <Compile Include="Hashing\Md5Demos.cs" />
+    <Compile Include="Hashing\Sha1Demos.cs" />
+    <Compile Include="Hashing\Sha256Demos.cs" />
+    <Compile Include="Hashing\Sha512Demos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="symmetric_crypto\3DesDemos.cs" />
+    <Compile Include="symmetric_crypto\AESDemos.cs" />
+    <Compile Include="symmetric_crypto\DESDemos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
